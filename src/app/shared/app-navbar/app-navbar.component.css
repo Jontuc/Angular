@@ -1,0 +1,43 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.navbar-brand img {
+    max-height: 25px;
+}
+
+.logo{
+    margin: auto 13px;
+    height: 42px;
+    display: flex;    
+}
+.rect{
+    background-color: #FFF;
+    border-radius: 5px;
+    height: 35px;
+    width: 50px;
+    position: relative;
+}
+
+#guion{
+    position: absolute;
+    left: 10px;
+    top: -2px;
+}
+#ap-lg{
+    color: #FFF;
+    line-height: 0.9;
+    top: 7px;
+    position: relative;
+    font-size: 12px;
+    left: 5px;
+}
+
+#yp {
+    color: #FFF;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+#arrow{
+    position: absolute;
+    left: -10px;
+}
