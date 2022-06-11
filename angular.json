@@ -124,5 +124,7 @@
       }
     }
   },
-  "defaultProject": "tp-portfolio"
+  "cli": {
+    "analytics": false
+  }
 }
