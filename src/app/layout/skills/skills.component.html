@@ -1,0 +1,15 @@
+<section class="skills" title="Hard & Soft Skills">
+    <h3>Hard & Soft Skills</h3>
+    <div class="container-fluid bs-indigo">
+        <div class="container-skills">
+            <!-- <div *ngFor="let skill of skills" style="height: 340px; width: 250px; background: #FFF;"></div> -->
+            <app-skillcard *ngFor="let skill of skills" 
+            title="{{skill.text}}"
+            text={{skill.text}} 
+            [percent]=skill.percent 
+            color={{skill.color}}
+            ></app-skillcard>
+            <div class="add-card"><span>+</span></div>
+        </div>
+    </div>
+</section>

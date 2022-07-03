@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './shared/app-navbar/app-navbar.component';
 import { BannerComponent } from './layout/banner/banner.component';
+import { SkillcardComponent } from './shared/skillcard/skillcard.component';
+import { SkillsComponent } from './layout/skills/skills.component';
+import { ProgrammingSvgComponent } from './shared/svg/programming-svg/programming-svg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
-    BannerComponent
+    BannerComponent,
+    SkillcardComponent,
+    SkillsComponent,
+    ProgrammingSvgComponent
   ],
   imports: [
     BrowserModule,
