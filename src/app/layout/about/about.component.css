@@ -1,0 +1,7 @@
+.text-justify{
+    text-align: justify;
+}
+
+.container-about .row{
+    min-height: 440px;
+}

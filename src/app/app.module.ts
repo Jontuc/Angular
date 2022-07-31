@@ -8,6 +8,9 @@ import { BannerComponent } from './layout/banner/banner.component';
 import { SkillcardComponent } from './shared/skillcard/skillcard.component';
 import { SkillsComponent } from './layout/skills/skills.component';
 import { ProgrammingSvgComponent } from './shared/svg/programming-svg/programming-svg.component';
+import { AboutComponent } from './layout/about/about.component';
+import { ExperienceComponent } from './layout/experience/experience.component';
+import { EducationComponent } from './layout/education/education.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ProgrammingSvgComponent } from './shared/svg/programming-svg/programmin
     BannerComponent,
     SkillcardComponent,
     SkillsComponent,
-    ProgrammingSvgComponent
+    ProgrammingSvgComponent,
+    AboutComponent,
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
