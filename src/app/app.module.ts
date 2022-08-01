@@ -11,6 +11,8 @@ import { ProgrammingSvgComponent } from './shared/svg/programming-svg/programmin
 import { AboutComponent } from './layout/about/about.component';
 import { ExperienceComponent } from './layout/experience/experience.component';
 import { EducationComponent } from './layout/education/education.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { EducationComponent } from './layout/education/education.component';
     ProgrammingSvgComponent,
     AboutComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
